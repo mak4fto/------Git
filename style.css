@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.5;
+    padding: 0;
+}
+.hContainer{
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin: 0PX;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+.containerBtn{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10PX;
+}
+button {
+    border:0;
+    border-radius: 5PX;
+    height: 30px;
+    width: 50px;
+    box-shadow: 4px 4px 4px grey;
+    transition: box-shadow 0.25s;
+}
+button:hover{
+    box-shadow: 8px 8px 8px grey;
+}
+
+
+.listContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
